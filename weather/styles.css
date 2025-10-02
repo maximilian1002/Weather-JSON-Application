@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    color: #fff;
+    background: #555;
+    border: none;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background: #777;
+  }
+  
+  /* Home Page */
+  .home-page {
+    background-color: #f0f8ff; /* Light blue */
+  }
+  
+  /* Temperature Page */
+  .temperature {
+    background-color: #f0ffe1; /* Misty rose */
+  }
+  
+  /* Humidity Page */
+  .humidity {
+    background-color: #e6e6fa; /* Lavender */
+  }
+  
+  /* UV Index Page */
+  .uv {
+    background-color: #fffacd; /* Lemon chiffon */
+  }
+  
+  /* Wind Speed Page */
+  .wind {
+    background-color: #e0ffff; /* Light cyan */
+  }
+  
+  /* Icon Styling (example) */
+  #tempIcon, #humidityIcon, #uvIcon, #windIcon {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  
